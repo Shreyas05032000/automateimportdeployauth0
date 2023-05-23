@@ -33,5 +33,5 @@ stages{
                 sh 'npm install -g auth0-deploy-cli'
             }
         }
-
+}
 }
