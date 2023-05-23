@@ -35,7 +35,7 @@ try {
   console.log('unable to read the file', error)
   }
 try {
-    
+    console.log("start the git api")
     // Get content from GitHub
     let githubConfig = {
         method: 'get',
