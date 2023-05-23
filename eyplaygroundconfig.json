@@ -1,0 +1,9 @@
+{
+    "AUTH0_DOMAIN": "ey-playgrdadsound.us.auth0.com",
+    "AUTH0_CLIENT_ID": "ZaI35VLqedadfayPwKvBvsVjPt5h0E0SaiJlg",
+    "AUTH0_CLIENT_SECRET": "029E18gKYRqdadfawA91PmvnRD5dc9_-BCQiOgox4_DqOmXpIaZiuN3TPOxikiS49mVWb",
+    "AUTH0_KEYWORD_REPLACE_MAPPINGS": {
+        "ENVIRONMENT": "dev",
+        "AUDIENCE": "https://ey-playgrodajkjdsk.us.auth0.com/api/v2/"
+    }
+}
