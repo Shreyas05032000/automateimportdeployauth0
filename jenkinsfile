@@ -1,0 +1,37 @@
+pipeline {
+    agent any
+    tools{ 
+        nodejs '17.8.0'
+    }
+    options{
+        skipDefaultCheckout('false')
+        disableConcurrentBuilds()
+    }
+    /*parameters { 
+        choice(name: 'OPTION', choices: ['export', 'import'], description: 'Choose import or export')
+    }*/
+stages{
+       stage("clone the git repos"){
+            steps{
+                 git 'https://github.com/Shreyas05032000/automateimportdeployauth0.git'
+            }
+        }
+
+     stage("Install node"){
+            steps{
+                sh 'npm install'
+            }
+        }
+        stage("run the file"){
+            steps{
+                sh 'node exam.js '
+            }
+        }
+
+        stage("Install tool"){
+            steps{
+                sh 'npm install -g auth0-deploy-cli'
+            }
+        }
+
+}
