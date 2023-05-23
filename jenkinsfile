@@ -11,13 +11,7 @@ pipeline {
         choice(name: 'OPTION', choices: ['export', 'import'], description: 'Choose import or export')
     }*/
 stages{
-       stage("clone the git repos"){
-            steps{
-                 git 'https://github.com/Shreyas05032000/automateimportdeployauth0.git'
-            }
-        }
-
-     stage("Install node"){
+       stage("Install node"){
             steps{
                 sh 'npm install'
             }
