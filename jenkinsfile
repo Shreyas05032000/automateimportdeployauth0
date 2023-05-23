@@ -21,11 +21,5 @@ stages{
                 sh 'node exam.js '
             }
         }
-
-        stage("Install tool"){
-            steps{
-                sh 'npm install -g auth0-deploy-cli'
-            }
-        }
 }
 }
