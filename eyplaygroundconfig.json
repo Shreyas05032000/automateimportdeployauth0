@@ -1,9 +1,1 @@
-{
-    "AUTH0_DOMAIN": "ey-playgrdadsound.usadfasdfaf.auth0.com",
-    "AUTH0_CLIENT_ID": "ZaI35VLqedadfayPjdkalkhwKvBvsVjPt5h0E0SaiJlg",
-    "AUTH0_CLIENT_SECRET": "029E18gKYRqdadfawA9afdafad1PmvnRD5dc9_-BCQiOgox4_DqOmXpIaZiuN3TPOxikiS49mVWb",
-    "AUTH0_KEYWORD_REPLACE_MAPPINGS": {
-        "ENVIRONMENT": "dev",
-        "AUDIENCE": "https://ey-playgrodafdsafgbavewfvajkjdsk.us.auth0.com/api/v2/"
-    }
-}
+{"AUTH0_DOMAIN":"ey-playground.us.auth0.com","AUTH0_CLIENT_ID":"ZaI35VLqeyPwKvBvsVjPt5h0E0SaiJlg","AUTH0_CLIENT_SECRET":"029E18gKYRqwA91PmvnRD5dc9_-BCQiOgox4_DqOmXpIaZiuN3TPOxikiS49mVWb","AUTH0_KEYWORD_REPLACE_MAPPINGS":{"ENVIRONMENT":"dev","AUDIENCE":"https://ey-playground.us.auth0.com/api/v2/"}}
